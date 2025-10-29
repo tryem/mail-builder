@@ -10,6 +10,7 @@ use std::io::{self, Write};
 pub mod base64;
 pub mod encode;
 pub mod quoted_printable;
+pub mod rfc2231;
 
 pub struct Base64Encoder(bool);
 pub struct QuotedPrintableEncoder(bool);
